@@ -14,3 +14,6 @@ def shift(plaintext, key=3):
     print(*StringList)
 plaintext = input("Enter string: ")
 shift(plaintext)
+
+#This code works as a cipher. Once an initial message is inputted in the form of a string, each character is shifted 3 letters up the alphabet.
+#A similar program could be written to decode the encoded message by shifting the string back to its original characters.
