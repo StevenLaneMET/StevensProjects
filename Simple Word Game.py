@@ -26,3 +26,6 @@ while word == True:
     if attempt_count >= 6:
         print("Out of guesses.")
         break
+       
+#This code runs a simple, two-player word game where the first player inputs a five-letter word and the second player
+#has 5 attempts to guess it.
