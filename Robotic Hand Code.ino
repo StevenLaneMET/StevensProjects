@@ -243,5 +243,5 @@ void loop() {
    delay(1000);
   }
 
-#This code controls a 3d printed robotic hand using an arduino mega and 5 servos, one connected by cable to each finger.
-#There are also 5 buttons that, when pushed, each cause the hand to perform a different action such as make a fist or cycle each finger to full extension.
+//This code controls a 3d printed robotic hand using an arduino mega and 5 servos, one connected by cable to each finger.
+//There are also 5 buttons that, when pushed, each cause the hand to perform a different action such as make a fist or cycle each finger to full extension.
