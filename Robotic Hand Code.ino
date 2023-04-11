@@ -1,5 +1,5 @@
 #include <Servo.h>
-// Create a new servo object:
+
 Servo myservo1;
 Servo myservo2;
 Servo myservo3;
@@ -20,10 +20,9 @@ int BUTTONstate3=0;
 int BUTTONstate4=0;
 int BUTTONstate5=0;
 
-// Create a variable to store the servo position:
 int angle = 0;
 void setup() {
-  // Attach the Servo variable to a pin:
+ 
   myservo1.attach(2);
   myservo2.attach(3);
   myservo3.attach(4);
@@ -243,3 +242,6 @@ void loop() {
 }
    delay(1000);
   }
+
+#This code controls a 3d printed robotic hand using an arduino mega and 5 servos, one connected by cable to each finger.
+#There are also 5 buttons that, when pushed, each cause the hand to perform a different action such as make a fist or cycle each finger to full extension.
