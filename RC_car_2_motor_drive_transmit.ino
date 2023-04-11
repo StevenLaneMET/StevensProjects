@@ -36,3 +36,7 @@ void loop() {
   radio.write(&YVal, sizeof(YVal));
   delay(200);
 }
+
+#This code facilitates wireless communication between arduino unos using nRF24L01 modules. 
+#A joystick connected to the transmitting arduino sends motor information to the receiving arduino which controls 2 dc motors, 
+#therefore controlling the small 3d printed, 3-wheel vehicle they are attached to. 
