@@ -39,8 +39,7 @@ Serial.begin(9600);
   
 }
 void loop() {
-  // Tell the servo to go to a particular angle:
-  
+    
   BUTTONstate1=digitalRead(BUTTON1);
   BUTTONstate2=digitalRead(BUTTON2);
   BUTTONstate3=digitalRead(BUTTON3);
