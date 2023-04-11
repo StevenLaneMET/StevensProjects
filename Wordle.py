@@ -159,3 +159,7 @@ while infinite_game == True:
         count2 = 0
         count3 = 0
         count4 = 0
+        
+#This code runs a simple two-player game, very similar to wordle. The first player inputs a word, and the second player
+#guesses. Feedback is given for each guess in the form of squares of different colors. A green square indicates a guessed letter is correct and in the right spot,
+#a yellow square indicates a correct letter but in the wrong spot, and a grey square indicates an incorrect letter.
